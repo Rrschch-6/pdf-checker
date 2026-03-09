@@ -62,7 +62,8 @@ st.sidebar.header("About")
 if logo_path.exists():
     st.sidebar.image(str(logo_path), width=72)
 st.sidebar.write(
-    "This app uses Hallucinator to extract references from PDFs and validate them."
+    "This app uses Hallucinator to extract references from PDFs and validate them. "
+    "It is developed by the System Security Lab at TU Darmstadt and intended for internal use."
 )
 st.sidebar.markdown(
     "[Hallucinator GitHub Repository](https://github.com/gianlucasb/hallucinator)"
