@@ -1,0 +1,2 @@
+pkg-config
+libfontconfig1-dev
